@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.tower.demo.spheremotion.view.RectViewGroup
+        android:id="@+id/vg_rect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btn_bottom"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="@dimen/button_widget"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="@dimen/button_margin"
+        android:background="@drawable/sel_btn_bg"
+        android:text="@string/btn_start"
+        android:textColor="@color/white" />
+
+</FrameLayout>

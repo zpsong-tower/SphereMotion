@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sphere Motion</string>
+
+    <string name="btn_start">开始</string>
+</resources>
